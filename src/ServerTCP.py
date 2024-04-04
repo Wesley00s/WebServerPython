@@ -1,7 +1,7 @@
 import socket
 import threading
 
-bind_ip = '192.168.1.135'
+bind_ip = 'localhost'
 bind_port = 80
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
